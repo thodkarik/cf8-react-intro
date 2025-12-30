@@ -4,8 +4,11 @@
 // import FunctionalComponent from "./components/FunctionalComponent.tsx";
 // import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
 // import ArrowFunctionalComponentWithProps from "./components/ArrowFunctionalComponentWithProps.tsx";
+// import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
+// import Card from "./components/Card.tsx";
+
+import Layout from "./components/Layout.tsx";
 import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
-import Card from "./components/Card.tsx";
 
 function App() {
 
@@ -22,12 +25,21 @@ function App() {
         {/*    description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quod?" */}
         {/*/>*/}
 
-        <Card title="Card">
+    {/*    <Card title="Card">*/}
+    {/*        <ArrowFunctionalComponentWithPropsType*/}
+    {/*            title="Is an Arrow Functional Component with 2 Props"*/}
+    {/*            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quod?"*/}
+    {/*        />*/}
+    {/*    </Card>*/}
+    {/*</>*/}
+        <Layout>
+
             <ArrowFunctionalComponentWithPropsType
-                title="Is an Arrow Functional Component with 2 Props"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quod?"
+            title="Is an Arrow Functional Component with 2 Props"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, quod?"
             />
-        </Card>
+
+        </Layout>
     </>
   )
 }
