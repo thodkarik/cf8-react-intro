@@ -10,7 +10,8 @@
 import Layout from "./components/Layout.tsx";
 // import WindowSize from "./components/WindowSize.tsx";
 // import FocusInput from "./components/FocusInput.tsx";
-import PreviousValue from "./components/PreviousValue.tsx";
+// import PreviousValue from "./components/PreviousValue.tsx";
+import CounterWithRef from "./components/CounterWithRef.tsx";
 // import Timer from "./components/Timer.tsx";
 // import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
@@ -83,7 +84,8 @@ function App() {
             {/*<Timer/>*/}
             {/*<WindowSize/>*/}
             {/*<FocusInput/>*/}
-            <PreviousValue/>
+            {/*<PreviousValue/>*/}
+            <CounterWithRef/>
 
         </Layout>
     </>
