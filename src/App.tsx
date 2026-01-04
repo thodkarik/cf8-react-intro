@@ -8,7 +8,8 @@
 // import Card from "./components/Card.tsx";
 
 import Layout from "./components/Layout.tsx";
-import Timer from "./components/Timer.tsx";
+import WindowSize from "./components/WindowSize.tsx";
+// import Timer from "./components/Timer.tsx";
 // import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
 // import ClassComponentWithState from "./components/ClassComponentWithState.tsx";
@@ -77,7 +78,8 @@ function App() {
 
             {/*<CounterWithCustomHook/>*/}
             {/*<NameChangerWithEffect/>*/}
-            <Timer/>
+            {/*<Timer/>*/}
+            <WindowSize/>
 
 
         </Layout>
