@@ -8,7 +8,9 @@
 // import Card from "./components/Card.tsx";
 
 import Layout from "./components/Layout.tsx";
-import WindowSize from "./components/WindowSize.tsx";
+// import WindowSize from "./components/WindowSize.tsx";
+// import FocusInput from "./components/FocusInput.tsx";
+import PreviousValue from "./components/PreviousValue.tsx";
 // import Timer from "./components/Timer.tsx";
 // import ArrowFunctionalComponentWithPropsType from "./components/ArrowFunctionalComponentWithPropsType.tsx";
 // import FunctionalComponentWithState from "./components/FunctionalComponentWithState.tsx";
@@ -79,8 +81,9 @@ function App() {
             {/*<CounterWithCustomHook/>*/}
             {/*<NameChangerWithEffect/>*/}
             {/*<Timer/>*/}
-            <WindowSize/>
-
+            {/*<WindowSize/>*/}
+            {/*<FocusInput/>*/}
+            <PreviousValue/>
 
         </Layout>
     </>
